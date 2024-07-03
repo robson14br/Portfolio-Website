@@ -111,14 +111,17 @@ span {
   font-weight: 700;
   margin-top: 1.5rem;
   line-height: 1;
+  
+  
 }
 .home-img {
   border-radius: 50%;
+  
 }
-.home-img img {
+.home-img img{
   position: relative;
   top: 3rem;
-  width: 32vw;
+  width: 28vw;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
