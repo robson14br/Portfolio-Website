@@ -209,27 +209,30 @@
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
 
-      <form action="">
+      <form action="https://api.staticforms.xyz/submit" method="post">
         <div class="input-group">
           <div class="input-box">
-            <input type="text" placeholder="Full Name" />
-            <input type="email" placeholder="Email" />
+            <input type="text" name="name" placeholder="Full Name" required/>
+            <input type="email" name="email" placeholder="Email" />
           </div>
           <div class="input-box">
-            <input type="number" placeholder="Phone Number" />
-            <input type="text" placeholder="Subject" />
+            <input type="text" name="name" placeholder="Phone Number" required/>
+            <input type="text" name="subject" placeholder="Subject" required/>
           </div>
         </div>
 
         <div class="input-group-2">
           <textarea
-            name=""
+            name="message"
             id=""
             cols="30"
             rows="10"
             placeholder="Your Message"
           ></textarea>
-          <input type="submit" value="Send Message" class="btn" />
+          <input type="submit" value="Send Message" class="btn" required/>
+
+          <input type="hidden" name="accessKey" value="617d2c03-0972-4912-930e-b915104aa6ed">
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/?#home">
         </div>
       </form>
     </section>
@@ -260,7 +263,7 @@
         </li>
 
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Projects</a>
         </li>
       </ul>
       <p class="copyright">© Robson Dias | All Rights Reserved</p>
