@@ -82,6 +82,7 @@ body {
   margin-right: 8px;
   height: 20px;
   width: auto;
+  margin-right: 5px;
   
 
 }
@@ -100,6 +101,7 @@ body {
   background-color: #ccc;
   transition: .4s; 
   border-radius: 10px;
+  margin-right: 5px;
 }
 
 .switch .slider:before {
@@ -133,9 +135,7 @@ body {
   display: none;
 }
 
-.switch input:checked + .slider {
-  margin-left: -8px;
-}
+
 
 section {
   min-height: 100vh;
@@ -463,9 +463,9 @@ span {
   flex-direction: column;
   text-align: left;
   max-height: 200px;
-  justify-content: left;
+  justify-content: flex-start;
   align-items: baseline;
-  padding: 5rem 5rem;
+  padding: 3rem;
 }
 .service-info h4{
   font-size: 3rem;
