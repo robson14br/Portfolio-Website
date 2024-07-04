@@ -56,3 +56,30 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const checkbox = document.getElementById('language-toggle');
+  if (checkbox) {
+      // Verifica se está na página index-pt.html e marca o checkbox
+      if (window.location.pathname === '/index-pt.html') {
+          checkbox.checked = true;
+      } else {
+          checkbox.checked = false;
+      }
+  }
+});
+
+const checkbox = document.getElementById('language-toggle');
+
+checkbox.addEventListener('change', function() {
+    const isChecked = this.checked;
+    const currentPath = window.location.pathname;
+    let targetPath = isChecked ? '/index-pt.html' : '/index.html';
+
+    // Verifica se o redirecionamento é necessário apenas se não estiver na página de destino
+    if ((isChecked && !currentPath.includes('/index-pt.html')) || (!isChecked && !currentPath.includes('/index.html'))) {
+        window.location.href = targetPath;
+    }
+});
