@@ -228,7 +228,7 @@ span {
 @keyframes words {
   5%,
   20% {
-    content: "Frontend Designer";
+    content: "Full-Stack Developer";
   }
   21%,
   40% {
@@ -386,7 +386,7 @@ span {
 }
 .service-box{
   background-color: var(--main-color);
-  height: 300px;
+  height: 230px;
   border-radius: 3rem;
   border: 5px solid transparent;
   cursor: pointer;
@@ -472,9 +472,15 @@ span {
 .testimonials-item p{
   font-size: 1.3rem;
 }
-#star{
-  color:gold;
-  font-size: 2rem;
+.rating {
+  margin-bottom: 10px;
+}
+.rating i {
+  font-size: 24px;
+  cursor: pointer;
+}
+.rating i.active {
+  color: gold;
 }
 .contact{
   background-color: var(--bg-color);
