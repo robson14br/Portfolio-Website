@@ -84,6 +84,14 @@ body {
   margin-right: 5px;
 }
 
+.switch .theme {
+  margin-right: 8px;
+  height: 20px;
+  width: auto;
+  margin-right: 5px;
+  border-radius: 200px;
+}
+
 .switch input {
   opacity: 0;
   width: 0;
