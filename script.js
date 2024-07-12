@@ -83,3 +83,19 @@ checkbox.addEventListener('change', function() {
         window.location.href = targetPath;
     }
 });
+
+const themeToggle = document.getElementById('theme-toggle');
+
+// Adiciona um ouvinte de evento para detectar mudanças no estado do switch
+themeToggle.addEventListener('change', function() {
+  // Seleciona o elemento root do documento
+  const root = document.documentElement;
+  
+  // Se o switch estiver marcado, adiciona a classe .light-theme ao root
+  if (this.checked) {
+    root.classList.add('light-theme');
+  } else {
+    // Se o switch não estiver marcado, remove a classe .light-theme do root
+    root.classList.remove('light-theme');
+  }
+});

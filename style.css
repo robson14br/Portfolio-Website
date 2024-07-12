@@ -15,6 +15,13 @@
   --main-color: #00ffee;
 }
 
+:root.light-theme {
+  --bg-color: #7a7a7a;
+  --second-bg-color: #e7e2e2;
+  --text-color: #333333;
+  --main-color: #00ffee;
+}
+
 html {
   font-size: 65%;
   overflow-x: hidden;
@@ -122,11 +129,15 @@ body {
 }
 
 .switch input:checked + .slider {
-  background-color: #2196f3;
+  background-color: var(--main-color);
 }
 
 .switch input:checked + .slider:before {
   transform: translateX(20px);
+}
+
+.switch input:checked + .slider:after {
+  background-color: var(--text-color); /* Usa a cor do texto como a cor do botão */
 }
 
 .switch img:first-of-type {
