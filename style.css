@@ -489,6 +489,7 @@ span {
 }
 .projects {
   background-color: var(--second-bg-color);
+  
 }
 .projects-box {
   background-size: cover;
@@ -528,6 +529,9 @@ span {
   gap: 1.5rem;
   color: white;
   transition: 0.4s ease-in-out;
+}
+.projects-item a{
+  text-decoration: none;
 }
 .projects-item:hover {
   border: 3px solid var(--main-color);
