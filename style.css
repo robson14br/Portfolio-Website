@@ -532,6 +532,7 @@ span {
 }
 .projects-item a{
   text-decoration: none;
+  color: gold
 }
 .projects-item:hover {
   border: 3px solid var(--main-color);
