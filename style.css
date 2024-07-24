@@ -268,7 +268,7 @@ span {
 }
 
 .text-animation {
-  font-size: 34px;
+  font-size: 2.12rem;
   font-weight: 600px;
   min-width: 280px;
 }
@@ -397,7 +397,7 @@ span {
   top: 10px;
 }
 .timeline-date {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   color: white;
   margin: 6px 0 15px;
@@ -416,7 +416,7 @@ span {
   box-shadow: 0 0 25px var(--main-color);
 }
 .timeline-content h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: white;
   margin: white;
   margin: 0 0 10px;
@@ -424,7 +424,7 @@ span {
 }
 .timeline-content p {
   color: white;
-  font-size: 16px;
+  font-size: 1.25rem;
   font-weight: 300;
   line-height: 22px;
 }
@@ -549,7 +549,7 @@ span {
   margin-bottom: 10px;
 }
 .rating i {
-  font-size: 24px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 .rating i.active {
@@ -723,7 +723,7 @@ span {
     margin: 5rem 4rem;
   }
   .home-content h3 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
   .home-content h1 {
     font-size: 8rem;
