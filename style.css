@@ -545,6 +545,13 @@ span {
 .projects-item p {
   font-size: 1.3rem;
 }
+.projects-item img {
+  
+  width: 100%;
+  height: auto; 
+  max-height: 200px; 
+  object-fit: cover;
+}
 .rating {
   margin-bottom: 10px;
 }
